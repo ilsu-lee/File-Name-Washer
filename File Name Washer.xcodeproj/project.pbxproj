@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9288BF7529AD9337005BAE5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9288BF7429AD9337005BAE5D /* AppDelegate.swift */; };
+		9288BF7729AD9337005BAE5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9288BF7629AD9337005BAE5D /* ViewController.swift */; };
+		9288BF7929AD933A005BAE5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9288BF7829AD933A005BAE5D /* Assets.xcassets */; };
+		9288BF7C29AD933A005BAE5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9288BF7A29AD933A005BAE5D /* Main.storyboard */; };
+		9288BF8729AD933A005BAE5D /* File_Name_WasherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9288BF8629AD933A005BAE5D /* File_Name_WasherTests.swift */; };
+		9288BF9129AD933A005BAE5D /* File_Name_WasherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9288BF9029AD933A005BAE5D /* File_Name_WasherUITests.swift */; };
+		9288BF9329AD933A005BAE5D /* File_Name_WasherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9288BF9229AD933A005BAE5D /* File_Name_WasherUITestsLaunchTests.swift */; };
+		9288BFA229AD9458005BAE5D /* DropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9288BFA129AD9458005BAE5D /* DropView.swift */; };
+		9288BFA429AD9471005BAE5D /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9288BFA329AD9471005BAE5D /* PreferencesViewController.swift */; };
+		9288BFA629AD9488005BAE5D /* FileUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9288BFA529AD9488005BAE5D /* FileUtils.swift */; };
+		9288BFA729AD9569005BAE5D /* RenameScript.sh in Resources */ = {isa = PBXBuildFile; fileRef = 9288BF9F29AD9427005BAE5D /* RenameScript.sh */; };
+		9288BFA829AD9569005BAE5D /* IsDirectoryScript.sh in Resources */ = {isa = PBXBuildFile; fileRef = 9288BFA029AD9443005BAE5D /* IsDirectoryScript.sh */; };
+		9288BFAC29AD9C73005BAE5D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9288BFAE29AD9C73005BAE5D /* Localizable.strings */; };
+		9288BFB129AD9D03005BAE5D /* LocalizedExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9288BFB029AD9D03005BAE5D /* LocalizedExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9288BF8329AD933A005BAE5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9288BF6929AD9337005BAE5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9288BF7029AD9337005BAE5D;
+			remoteInfo = "File Name Washer";
+		};
+		9288BF8D29AD933A005BAE5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9288BF6929AD9337005BAE5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9288BF7029AD9337005BAE5D;
+			remoteInfo = "File Name Washer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9288BF7129AD9337005BAE5D /* File Name Washer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "File Name Washer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9288BF7429AD9337005BAE5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9288BF7629AD9337005BAE5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9288BF7829AD933A005BAE5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9288BF7B29AD933A005BAE5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9288BF7D29AD933A005BAE5D /* File_Name_Washer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = File_Name_Washer.entitlements; sourceTree = "<group>"; };
+		9288BF8229AD933A005BAE5D /* File Name WasherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "File Name WasherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9288BF8629AD933A005BAE5D /* File_Name_WasherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File_Name_WasherTests.swift; sourceTree = "<group>"; };
+		9288BF8C29AD933A005BAE5D /* File Name WasherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "File Name WasherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9288BF9029AD933A005BAE5D /* File_Name_WasherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File_Name_WasherUITests.swift; sourceTree = "<group>"; };
+		9288BF9229AD933A005BAE5D /* File_Name_WasherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File_Name_WasherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9288BF9F29AD9427005BAE5D /* RenameScript.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = RenameScript.sh; sourceTree = "<group>"; };
+		9288BFA029AD9443005BAE5D /* IsDirectoryScript.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = IsDirectoryScript.sh; sourceTree = "<group>"; };
+		9288BFA129AD9458005BAE5D /* DropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropView.swift; sourceTree = "<group>"; };
+		9288BFA329AD9471005BAE5D /* PreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
+		9288BFA529AD9488005BAE5D /* FileUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileUtils.swift; sourceTree = "<group>"; };
+		9288BFA929AD9BCE005BAE5D /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		9288BFAD29AD9C73005BAE5D /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9288BFAF29AD9C7B005BAE5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9288BFB029AD9D03005BAE5D /* LocalizedExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedExtension.swift; sourceTree = "<group>"; };
+		9288BFB229AD9F48005BAE5D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9288BFB329ADB7C3005BAE5D /* README.ko.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.ko.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9288BF6E29AD9337005BAE5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9288BF7F29AD933A005BAE5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9288BF8929AD933A005BAE5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9288BF6829AD9337005BAE5D = {
+			isa = PBXGroup;
+			children = (
+				9288BFB329ADB7C3005BAE5D /* README.ko.md */,
+				9288BFB229AD9F48005BAE5D /* README.md */,
+				9288BF7329AD9337005BAE5D /* File Name Washer */,
+				9288BF8529AD933A005BAE5D /* File Name WasherTests */,
+				9288BF8F29AD933A005BAE5D /* File Name WasherUITests */,
+				9288BF7229AD9337005BAE5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9288BF7229AD9337005BAE5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9288BF7129AD9337005BAE5D /* File Name Washer.app */,
+				9288BF8229AD933A005BAE5D /* File Name WasherTests.xctest */,
+				9288BF8C29AD933A005BAE5D /* File Name WasherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9288BF7329AD9337005BAE5D /* File Name Washer */ = {
+			isa = PBXGroup;
+			children = (
+				9288BF7429AD9337005BAE5D /* AppDelegate.swift */,
+				9288BF7629AD9337005BAE5D /* ViewController.swift */,
+				9288BF7829AD933A005BAE5D /* Assets.xcassets */,
+				9288BF7A29AD933A005BAE5D /* Main.storyboard */,
+				9288BF7D29AD933A005BAE5D /* File_Name_Washer.entitlements */,
+				9288BF9F29AD9427005BAE5D /* RenameScript.sh */,
+				9288BFA029AD9443005BAE5D /* IsDirectoryScript.sh */,
+				9288BFA129AD9458005BAE5D /* DropView.swift */,
+				9288BFA329AD9471005BAE5D /* PreferencesViewController.swift */,
+				9288BFA529AD9488005BAE5D /* FileUtils.swift */,
+				9288BFAE29AD9C73005BAE5D /* Localizable.strings */,
+				9288BFB029AD9D03005BAE5D /* LocalizedExtension.swift */,
+			);
+			path = "File Name Washer";
+			sourceTree = "<group>";
+		};
+		9288BF8529AD933A005BAE5D /* File Name WasherTests */ = {
+			isa = PBXGroup;
+			children = (
+				9288BF8629AD933A005BAE5D /* File_Name_WasherTests.swift */,
+			);
+			path = "File Name WasherTests";
+			sourceTree = "<group>";
+		};
+		9288BF8F29AD933A005BAE5D /* File Name WasherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9288BF9029AD933A005BAE5D /* File_Name_WasherUITests.swift */,
+				9288BF9229AD933A005BAE5D /* File_Name_WasherUITestsLaunchTests.swift */,
+			);
+			path = "File Name WasherUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9288BF7029AD9337005BAE5D /* File Name Washer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9288BF9629AD933A005BAE5D /* Build configuration list for PBXNativeTarget "File Name Washer" */;
+			buildPhases = (
+				9288BF6D29AD9337005BAE5D /* Sources */,
+				9288BF6E29AD9337005BAE5D /* Frameworks */,
+				9288BF6F29AD9337005BAE5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "File Name Washer";
+			productName = "File Name Washer";
+			productReference = 9288BF7129AD9337005BAE5D /* File Name Washer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9288BF8129AD933A005BAE5D /* File Name WasherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9288BF9929AD933A005BAE5D /* Build configuration list for PBXNativeTarget "File Name WasherTests" */;
+			buildPhases = (
+				9288BF7E29AD933A005BAE5D /* Sources */,
+				9288BF7F29AD933A005BAE5D /* Frameworks */,
+				9288BF8029AD933A005BAE5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9288BF8429AD933A005BAE5D /* PBXTargetDependency */,
+			);
+			name = "File Name WasherTests";
+			productName = "File Name WasherTests";
+			productReference = 9288BF8229AD933A005BAE5D /* File Name WasherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9288BF8B29AD933A005BAE5D /* File Name WasherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9288BF9C29AD933A005BAE5D /* Build configuration list for PBXNativeTarget "File Name WasherUITests" */;
+			buildPhases = (
+				9288BF8829AD933A005BAE5D /* Sources */,
+				9288BF8929AD933A005BAE5D /* Frameworks */,
+				9288BF8A29AD933A005BAE5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9288BF8E29AD933A005BAE5D /* PBXTargetDependency */,
+			);
+			name = "File Name WasherUITests";
+			productName = "File Name WasherUITests";
+			productReference = 9288BF8C29AD933A005BAE5D /* File Name WasherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9288BF6929AD9337005BAE5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					9288BF7029AD9337005BAE5D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					9288BF8129AD933A005BAE5D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9288BF7029AD9337005BAE5D;
+					};
+					9288BF8B29AD933A005BAE5D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9288BF7029AD9337005BAE5D;
+					};
+				};
+			};
+			buildConfigurationList = 9288BF6C29AD9337005BAE5D /* Build configuration list for PBXProject "File Name Washer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ko,
+			);
+			mainGroup = 9288BF6829AD9337005BAE5D;
+			productRefGroup = 9288BF7229AD9337005BAE5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9288BF7029AD9337005BAE5D /* File Name Washer */,
+				9288BF8129AD933A005BAE5D /* File Name WasherTests */,
+				9288BF8B29AD933A005BAE5D /* File Name WasherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9288BF6F29AD9337005BAE5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9288BFAC29AD9C73005BAE5D /* Localizable.strings in Resources */,
+				9288BFA729AD9569005BAE5D /* RenameScript.sh in Resources */,
+				9288BFA829AD9569005BAE5D /* IsDirectoryScript.sh in Resources */,
+				9288BF7929AD933A005BAE5D /* Assets.xcassets in Resources */,
+				9288BF7C29AD933A005BAE5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9288BF8029AD933A005BAE5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9288BF8A29AD933A005BAE5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9288BF6D29AD9337005BAE5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9288BF7729AD9337005BAE5D /* ViewController.swift in Sources */,
+				9288BF7529AD9337005BAE5D /* AppDelegate.swift in Sources */,
+				9288BFA229AD9458005BAE5D /* DropView.swift in Sources */,
+				9288BFA429AD9471005BAE5D /* PreferencesViewController.swift in Sources */,
+				9288BFA629AD9488005BAE5D /* FileUtils.swift in Sources */,
+				9288BFB129AD9D03005BAE5D /* LocalizedExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9288BF7E29AD933A005BAE5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9288BF8729AD933A005BAE5D /* File_Name_WasherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9288BF8829AD933A005BAE5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9288BF9129AD933A005BAE5D /* File_Name_WasherUITests.swift in Sources */,
+				9288BF9329AD933A005BAE5D /* File_Name_WasherUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9288BF8429AD933A005BAE5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9288BF7029AD9337005BAE5D /* File Name Washer */;
+			targetProxy = 9288BF8329AD933A005BAE5D /* PBXContainerItemProxy */;
+		};
+		9288BF8E29AD933A005BAE5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9288BF7029AD9337005BAE5D /* File Name Washer */;
+			targetProxy = 9288BF8D29AD933A005BAE5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9288BF7A29AD933A005BAE5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9288BF7B29AD933A005BAE5D /* Base */,
+				9288BFA929AD9BCE005BAE5D /* ko */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9288BFAE29AD9C73005BAE5D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9288BFAD29AD9C73005BAE5D /* ko */,
+				9288BFAF29AD9C7B005BAE5D /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9288BF9429AD933A005BAE5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9288BF9529AD933A005BAE5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9288BF9729AD933A005BAE5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "File Name Washer/File_Name_Washer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q725U5TF4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anchors-biz.File-Name-Washer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9288BF9829AD933A005BAE5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "File Name Washer/File_Name_Washer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q725U5TF4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anchors-biz.File-Name-Washer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9288BF9A29AD933A005BAE5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q725U5TF4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anchors-biz.File-Name-WasherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/File Name Washer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/File Name Washer";
+			};
+			name = Debug;
+		};
+		9288BF9B29AD933A005BAE5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q725U5TF4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anchors-biz.File-Name-WasherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/File Name Washer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/File Name Washer";
+			};
+			name = Release;
+		};
+		9288BF9D29AD933A005BAE5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q725U5TF4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anchors-biz.File-Name-WasherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "File Name Washer";
+			};
+			name = Debug;
+		};
+		9288BF9E29AD933A005BAE5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q725U5TF4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anchors-biz.File-Name-WasherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "File Name Washer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9288BF6C29AD9337005BAE5D /* Build configuration list for PBXProject "File Name Washer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9288BF9429AD933A005BAE5D /* Debug */,
+				9288BF9529AD933A005BAE5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9288BF9629AD933A005BAE5D /* Build configuration list for PBXNativeTarget "File Name Washer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9288BF9729AD933A005BAE5D /* Debug */,
+				9288BF9829AD933A005BAE5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9288BF9929AD933A005BAE5D /* Build configuration list for PBXNativeTarget "File Name WasherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9288BF9A29AD933A005BAE5D /* Debug */,
+				9288BF9B29AD933A005BAE5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9288BF9C29AD933A005BAE5D /* Build configuration list for PBXNativeTarget "File Name WasherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9288BF9D29AD933A005BAE5D /* Debug */,
+				9288BF9E29AD933A005BAE5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9288BF6929AD9337005BAE5D /* Project object */;
+}

@@ -1,0 +1,36 @@
+/*
+  Localizable.strings
+  File Name Washer
+
+  Copyright (C) 2023 ILSU LEE
+
+  This program is free software; you can redistribute it and/or
+  modify it under the terms of the GNU General Public License
+  as published by the Free Software Foundation; either version 2
+  of the License, or 3 any later version.
+ 
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with this program; if not, write to the Free Software
+  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+  
+*/
+
+
+"Drop Here" = "Drop Here";
+"When overwriting, you can select only directory." = "You selected files. When overwriting, you can select only directory.";
+
+"%d files can be converted. Do you want to convert it?" = "%d files can be converted. Do you want to convert it?";
+
+
+
+"No convertible files were found." = "No convertible files were found.";
+
+"The targeted file already exists. Do you want to overwrite it?" = "The targeted file already exists. Do you want to overwrite it?";
+
+"Confirm" = "Confirm";
+"Cancel" = "Cancel";

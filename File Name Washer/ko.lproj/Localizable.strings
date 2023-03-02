@@ -1,0 +1,20 @@
+/*
+  Localizable.strings
+  File Name Washer
+
+  Created by ilsu lee on 2023/02/21.
+  
+*/
+
+
+"Drop Here" = "Drop Here";
+"When overwriting, you can select only directory." = "파일이 선택되었습니다. 덮어쓰기를 할때에는 디렉토리 단위로만 변롼 가능합니다.";
+
+"%d files can be converted. Do you want to convert it?" = "%d 파일이 변환 가능합니다. 진행하시겠습니까?";
+
+"No convertible files were found." = "변환 가능한 파일을 찾을 수 없습니다.";
+
+"The targeted file already exists. Do you want to overwrite it?" = "대상파일이 이미 있습니다. 덮어쓰겠습니까?";
+
+"Confirm" = "확인";
+"Cancel" = "취소";
